@@ -1,5 +1,11 @@
 # example-vanilla-ts
 
+1. Initialize the project
+2. Add the method `GetTime` to the `GreetService` in `greetservice.go`
+3. Generate the bindings
+
+### Initialize the project
+
 ```console
 $ wails3 init -t vanilla-ts -n example-vanilla-ts
 
@@ -15,4 +21,18 @@ Template Version  | v0.0.1
 
 
 Project 'example-vanilla-ts' created successfully.
+```
+
+### Add the method `GetTime` to the `GreetService` in `greetservice.go`
+
+```go
+func (g *GreetService) GetTime() time.Time {
+	return time.Now()
+}
+```
+
+### Generate the bindings
+
+```console
+$ wails3 dev
 ```
