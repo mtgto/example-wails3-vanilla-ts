@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=My Product
+Comment=My Product Description
+# The Exec line includes %u to pass the URL to the application
+Exec=/usr/local/bin/example-vanilla-ts %u
+Terminal=false
+Type=Application
+Icon=example-vanilla-ts
+Categories=Utility;
+StartupWMClass=example-vanilla-ts
+
+ 
